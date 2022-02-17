@@ -1,0 +1,18 @@
+@import url("/src/sass/base/_general.scss");
+@import url("/src/sass/base/_variables.scss");
+@import url("/src/sass/base/_mixins.scss");
+@import url("/src/sass/base/_media.scss");
+* {
+    
+    font-family: "Museo Sans";
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+@import url("/src/sass/blocks/_promo.scss");
+@import url("/src/sass/blocks/_header.scss");
+@import url("/src/sass/blocks/_buttons.scss");
